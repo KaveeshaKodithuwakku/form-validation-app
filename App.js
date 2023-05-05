@@ -121,8 +121,6 @@ export default function App() {
 
   };
 
-
-
   const save = () => {
     checkUserName();
     validateEmail();
@@ -139,9 +137,7 @@ export default function App() {
       setPassword("");
       setConPassword("");
     }
-
   };
-
 
   return (
 
@@ -243,7 +239,6 @@ export default function App() {
             chResult == true ? null : <Text style={{ color: "red" }}>Save Successfully</Text>
           }
         </View>
-
 
       </View>
     </PaperProvider>
